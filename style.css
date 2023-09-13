@@ -1,0 +1,25 @@
+/* Whole canvas */
+.grid{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+/* single block in canvas  */
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+/* color for snake */
+.snake {
+    background-color: blue;
+}
+ 
+/* color for apple */
+.apple {
+    background-color: purple;
+}
